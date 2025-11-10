@@ -2,6 +2,7 @@ Create a Vite + React app using Tailwind CSS.
 Include these sections:
 - Home: hero with my name and short intro
 - Projects: fetch from /api/projects and show cards with title, description, tech, repo link
+- Work experience: including a timeline of work experience with dates
 - Skills: 6 skills with progress bars
 - Contact: simple form or email link
 - Responsive design (mobile/tablet/desktop)
