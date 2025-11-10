@@ -1,0 +1,7 @@
+Generate a minimal Node.js + Express server for my portfolio app.
+Requirements:
+- Route GET /api/projects returns 3 sample project objects
+- Serves static frontend files from app/dist in production
+- Listens on process.env.PORT || 8080
+- Includes package.json with scripts: "start", "dev"
+Output only the file contents for server/index.js and server/package.json

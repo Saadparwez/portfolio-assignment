@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Express server for portfolio application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "portfolio",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
+
+
+

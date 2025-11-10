@@ -1,0 +1,1 @@
+Create a short project plan for a personal portfolio web app built with Vite + React frontend and Node.js + Express backend.

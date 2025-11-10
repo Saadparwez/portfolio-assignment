@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Python EDA Project",
+      "description": "My team member and I performed exploratory data analysis, hypothesis testing, and correlation analysis using publicly available datasets. Our goal was to derive actionable business insights and present recommendations backed by statistical evidence.",
+      "tools": ["Python", "NumPy", "Pandas", "Seaborn", "Matplotlib"],
+      "image": "/Python-EDA.png",
+      "github": null,
+      "demo": null
+    },
+    {
+      "id": 2,
+      "title": "Dean’s List – Rutgers Business School",
+      "description": "Recognized for academic excellence and consistently maintaining a GPA of 3.5 or higher across multiple semesters at Rutgers Business School.",
+      "tools": ["No tools for this however a white board helped in staying organized!"],
+      "image": "/deans-list.png",
+      "github": null,
+      "demo": null
+    },
+    {
+      "id": 3,
+      "title": "Demand Planning Project",
+      "description": "Converted finished-goods demand forecasts into detailed component requirements and projected raw material procurement costs across a three-month planning horizon.",
+      "tools": ["Excel"],
+      "image": "/petromin-letter.png",
+      "github": null,
+      "demo": null
+    }
+  ]
+  

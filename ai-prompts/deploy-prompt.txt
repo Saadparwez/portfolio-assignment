@@ -1,0 +1,6 @@
+Create a GitHub Actions workflow at .github/workflows/deploy-cloud-run.yml that:
+- Runs on push to main
+- Authenticates with Google Cloud using a service account JSON in secret GCP_SA_KEY
+- Builds and pushes Docker image to Artifact Registry
+- Deploys to Cloud Run (region us-central1, service name portfolio-service)
+- Outputs the service URL

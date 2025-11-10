@@ -1,0 +1,5 @@
+Write a Dockerfile that builds the Vite app and runs the Express server.
+Multi-stage build:
+- Stage 1: build frontend
+- Stage 2: copy dist into server and run node server/index.js
+Expose port 8080.
