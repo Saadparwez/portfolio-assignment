@@ -170,7 +170,7 @@ function App() {
               {
                 title: "Legal Operations Coordinator",
                 company: "Elevate Services",
-                duration: "Sep 2023 – Present",
+                duration: "Sep 2023 – Aug 2025",
                 description:
                   "Assist with document processing, legal billing, and metric reporting for enterprise clients, improving operational efficiency.",
                 logo: elevateLogo,
