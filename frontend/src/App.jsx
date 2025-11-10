@@ -123,19 +123,6 @@ function App() {
 </nav>
 
 
-      {/* 🧭 Navbar */}
-      <nav className="bg-white shadow-md fixed w-full top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="#home" className="text-2xl font-bold text-gray-800 hover:text-red-700 transition">Portfolio</a>
-          <div className="hidden md:flex space-x-6">
-            <a href="#home" className="text-gray-600 hover:text-red-700 transition">Home</a>
-            <a href="#experience" className="text-gray-600 hover:text-red-700 transition">Work Experience</a>
-            <a href="#projects" className="text-gray-600 hover:text-red-700 transition">Projects</a>
-            <a href="#skills" className="text-gray-600 hover:text-red-700 transition">Skills</a>
-            <a href="#contact" className="text-gray-600 hover:text-red-700 transition">Contact</a>
-          </div>
-        </div>
-      </nav>
 
       {/* 🏠 Hero Section */}
       <section id="home" className="pt-24 pb-20 bg-gradient-to-br from-red-50 to-white text-center">
