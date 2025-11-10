@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import ProjectCard from './components/ProjectCard'
 import rutgersLogo from './assets/Rutgers-logo.jpg'
-import purdueLogo from './assets/Purdue-Logo.png'
+import purdueLogo from './assets/Purdue-logo.png'
 import elevateLogo from "./assets/elevate.png";
 import wongLogo from "./assets/wong fleming.png";
 import petrominLogo from "./assets/petromin.png";
