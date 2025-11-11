@@ -1,6 +1,10 @@
-Create a GitHub Actions workflow at .github/workflows/deploy-cloud-run.yml that:
-- Runs on push to main
-- Authenticates with Google Cloud using a service account JSON in secret GCP_SA_KEY
-- Builds and pushes Docker image to Artifact Registry
-- Deploys to Cloud Run (region us-central1, service name portfolio-assignment)
-- Outputs the service URL
+The deployment setup for the portfolio application:
+
+- The project deploys automatically using Google Cloud Build Triggers, not GitHub Actions.
+- A Cloud Build trigger is connected to the GitHub repository (branch: main).
+- On each push to the main branch:
+    - Cloud Build pulls the latest code from GitHub
+    - Builds the Docker image using the Dockerfile at the repo root
+    - Pushes the image to Artifact Registry
+    - Deploys the new image to Cloud Run
+    - Cloud Run hosts the live portfolio website and automatically updates when Cloud Build completes successfully.
