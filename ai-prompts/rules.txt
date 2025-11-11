@@ -1,0 +1,50 @@
+Rules I Developed for Using AI During this Project
+
+This document outlines the personal rules and constraints I established for using AI tools throughout the development of my portfolio application. These rules were created to ensure that I remained actively engaged in the development process, maintained ownership of the work, and used AI in a responsible, structured way.
+
+1. AI Should Assist, Not Replace My Development Work
+
+I allowed AI to help generate parts of the implementation (such as React components, Tailwind utility structures, layout ideas, or configuration snippets), but I reviewed, edited, and integrated every piece of code myself. I did not paste anything without understanding how it worked.
+
+2. I Had to Understand Every Line of Code Before Using It
+
+If AI generated code that I could not personally explain, I was not allowed to use it.
+I required myself to:
+
+Read the code line-by-line
+Ask clarifying questions when needed
+Modify the code until I could validate its purpose
+This rule ensured the project remained my work, not just AI output.
+
+3. AI Cannot Make Architectural Decisions Without My Oversight
+
+I used AI for suggestions, but I made the final decisions about:
+
+Component structure
+State management
+Folder organization
+Nav/menu logic
+Deployment workflow
+Dockerfile configuration
+
+AI could propose options, but I chose the approach and adapted it myself.
+
+4. AI Must Not Be Used to Generate the Required Reflection Essay
+
+Per assignment instructions, all reflective writing had to be done without AI assistance.
+This rule ensured academic integrity for the essay portion of the project.
+
+5. Prompts Must Be Specific, Context-Rich, and Intentional
+
+I required myself to:
+
+Provide context such as existing code, folder structure, or error messages
+Ask for revisions instead of new solutions when appropriate
+Avoid vague prompts like “build this for me”
+This rule helped me improve my prompt engineering and maintain project clarity.
+
+6. AI Output Had to Be Tested Locally Before Acceptance
+
+Before integrating AI-generated code, I tested it locally to ensure:
+
+No runtime errors
